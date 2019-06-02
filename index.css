@@ -1,10 +1,449 @@
-h1 {
-    color: red;
-    font-size: 45px;
-    font-weight: bold;
+body{
+    
+    background:linear-gradient(#26D0E6,white);
 }
 
-p {
-    color: green;
-    font-size: 15px;
+/*Question message*/
+
+.bloc_message {
+}
+
+/*Formulaire de message*/
+
+
+.gris{
+    height: 436px;
+    width: 345px;
+    background: grey;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.numeric{
+    position: relative;
+    margin: 1vh;
+}
+
+.message{
+    height: 134px;
+}
+
+.blanc{
+    height: 434px;
+    width: 305px;
+    background: white;
+    margin: 0 auto;
+}
+
+.letters{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bloc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 6vh;
+    width: 30%;
+    background: green;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.bloc:hover{
+    transition: 9s ease-in-out;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    cursor: pointer;
+}
+
+.tel {
+    height: 95vh;
+    width: 70%;
+    background: white;
+}
+
+.bloc_tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+.is-open{
+    height: 456vh;
+    width: 100%;
+    background: red;
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.letters{
+    text-decoration: none;
+    display: flex;
+}
+
+.letter__A{
+    text-decoration: none;
+}
+
+.A{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.B{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.C{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.D{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.E{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.F{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.G{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.H{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.I{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.G{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.H{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.I{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.J{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.K{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.L{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.M{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.N{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.O{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.P{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.Q{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.R{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.S{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.T{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.U{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.V{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+
+.W{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+.X{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.Y{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.Z{
+    text-decoration: none;
+    border: 1px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+
+
+
+
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.part__message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Peoples{
+    display: flex;
+    justify-content: center;
+
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    margin-left: 4vh;
+    text-decoration: none;
+    text-decoration: none;
+    border-radius: 2px solid black;
+    background: white;
+    height: 34px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    background:beige;
+    height: 36px;
+    transition: 2s ease-in-out;
+    cursor: pointer;
 }
